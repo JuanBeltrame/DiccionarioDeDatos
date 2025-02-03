@@ -1,15 +1,14 @@
 # Practica - Diccionario de Datos - Ex.6
 
-#### <mark style="color:orange;">Ejercicio 5 | Exercise 5</mark>
+#### <mark style="color:orange;">Ejercicio 6 | Exercise 6</mark>
 
 Spanish:
 
-Todos los días 25 de cada mes, el área de Personal confecciona un listado con los descuentos a efectuar a los inscriptos activos de la Asociación, indicando para cada uno de ellos: nro. de inscripto, valor cuota y monto de la caja de ahorro a debitar (si corresponde).
+Cuando un socio de un Videoclub desea alquilar películas, indica al sistema el no de socio, o si no lo recuerda indicará su nombre, DNI y el nombre de las películas, que por norma establecida en la organización no podrán ser más de tres.
 
 English:
 
-On the 25th of every month, the HR Department prepares a list of deductions to be applied to active members of the Association. For each member, the list includes: registration number, membership fee amount, and the savings account amount to be debited (if applicable).
+When a member of a Video Club wants to rent movies, they provide the system with their membership number. If they cannot remember it, they will instead provide their name, ID number (DNI), and the titles of the movies, which, according to the organization’s policy, may not exceed three.
 
 <mark style="color:green;">**Solution:**</mark>&#x20;
 
-s:Descuentos = fechaInforme + 0{nroInscripto + valorCuota + (montoCajaAhorro)}n
