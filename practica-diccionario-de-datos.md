@@ -1,6 +1,6 @@
 # Practica - Diccionario de Datos - Ex.5
 
-#### <mark style="color:orange;">Ejercicio 5 | Exercise 5</mark>
+#### <mark style="color:orange;">Ejercicio 5 - Exercise 5</mark>
 
 Spanish:
 
