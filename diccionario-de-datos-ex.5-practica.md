@@ -1,4 +1,4 @@
-# Practica - Diccionario de Datos - Ex.5
+# Diccionario de Datos - Ex.5 - Practica
 
 #### <mark style="color:orange;">Ejercicio 5 - Exercise 5</mark>
 
@@ -12,4 +12,6 @@ On the 25th of every month, the HR Department prepares a list of deductions to b
 
 <mark style="color:green;">**Solution:**</mark>&#x20;
 
-s:Descuentos = fechaInforme + 0{nroInscripto + valorCuota + (montoCajaAhorro)}n
+s:Descuentos = fechaInforme + 0{nroInscripto + valorCuota + (montoCajaAhorro)}n\
+\
+Tipo de Evento: Evento Temporal
