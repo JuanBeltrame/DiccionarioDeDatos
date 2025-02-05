@@ -1,5 +1,22 @@
 ---
 description: Listado de Descuentos
+cover: >-
+  https://images.unsplash.com/photo-1526178613552-2b45c6c302f0?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwxfHxEaXNjb3VudHN8ZW58MHx8fHwxNzM4Nzc3NDI2fDA&ixlib=rb-4.0.3&q=85
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Diccionario de Datos - Ex.5 - Practica

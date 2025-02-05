@@ -1,5 +1,22 @@
 ---
 description: Socio Videoclub
+cover: >-
+  https://images.unsplash.com/photo-1711912517564-2aa33854e4d4?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw3fHxCbG9ja2J1c3RlcnxlbnwwfHx8fDE3Mzg3Nzc0ODl8MA&ixlib=rb-4.0.3&q=85
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Diccionario de Datos - Ex.6 - Practica

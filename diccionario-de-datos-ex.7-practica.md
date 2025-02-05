@@ -1,5 +1,22 @@
 ---
 description: Reservas de un Hotel
+cover: >-
+  https://images.unsplash.com/photo-1517840901100-8179e982acb7?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw2fHxIb3RlbCUyMFJlc2VydmF0aW9ufGVufDB8fHx8MTczODc3NzUyMXww&ixlib=rb-4.0.3&q=85
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Diccionario de Datos - Ex.7 - Practica
