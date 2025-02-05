@@ -25,22 +25,28 @@ layout:
 
 Spanish:
 
-En una agencia de publicidad, los datos de la orden de publicidad son los siguientes: no orden, fecha orden, código vendedor, código de medio, tipo de medio, código de cliente o nombre del comprador, texto que publica y según el tipo de medio:
+En una agencia de publicidad, los datos de la orden de publicidad son los siguientes: nro orden, fecha orden, código vendedor, código de medio, tipo de medio, código de cliente o nombre del comprador, texto que publica y según el tipo de medio:
 
-* para diarios o revistas: no de página, tamaño, tarifa unitaria, una o varias fechas en las cuales desea publicar. Se supone que para una misma fecha se publica solamente en una página.
-* para televisión o radio: duración, programa o programas que desea, fecha o fechas que desea, horario u horarios en cada programa y tarifa del segundo correspondiente al horario del programa.
+* Para diarios o revistas: nro de página, tamaño, tarifa unitaria, una o varias fechas en las cuales desea publicar. Se supone que para una misma fecha se publica solamente en una página.
+* Para televisión o radio: duración, programa o programas que desea, fecha o fechas que desea, horario u horarios en cada programa y tarifa del segundo correspondiente al horario del programa.
 
-\
 
 
 English:\
+In an advertising agency, the data for a publicity order includes the following: order number, order date, salesperson code, media code, media type, client code or buyer’s name, text to be published, and depending on the media type:
 
+* For newspapers or magazines: page number, size, unit rate, and one or multiple dates for publication. It is assumed that for the same date, the ad will only appear on one page.
+* For television or radio: duration, program(s) requested, date(s) requested, time slot(s) within each program, and the per-second rate corresponding to the program’s time slot.
 
 ***
 
 <mark style="color:green;">**Solution:**</mark>&#x20;
 
-**Diccionario de Datos:** \
+**Diccionario de Datos:**&#x20;
 
+s: ordenPublicidad = nroOrden + fechaOrden + codigoVendedor + codigoMedio + tipoMedio(d) + \[ codigoCliente | nombreComprador ] + textoPublicacion + \[diarioRevista(e) | televisionRadio (e)\
+\
+diarioRevista(e) =  nroPagina  + tamaño + tarifaUnitaria + 1{fechasPublicacion}n\
+televisionRadio(e) = duracion + \[ programa | programas ] + \[ fecha | fechas ] + \[ horario | horarios ] + tarifa
 
-**Tipo de Evento:**&#x20;
+**Tipo de Evento:** &#x20;
