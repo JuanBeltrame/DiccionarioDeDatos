@@ -1,4 +1,4 @@
-# Practica - Diccionario de Datos - Ex.6
+# Diccionario de Datos - Ex.6 - Practica
 
 #### <mark style="color:orange;">Ejercicio 6 - Exercise 6</mark>
 
@@ -11,4 +11,8 @@ English:
 When a member of a Video Club wants to rent movies, they provide the system with their membership number. If they cannot remember it, they will instead provide their name, ID number (DNI), and the titles of the movies, which, according to the organization’s policy, may not exceed three.
 
 <mark style="color:green;">**Solution:**</mark>&#x20;
+
+e: Alquiler = \[ nroSocio | (nombre\[e] + tipoDocumento(d) + nroDocumento) ] + 1{nombrePelicula}3 \
+tipoDocumento(d) = char(3); \[DNI | DU | PAS | LE | LC]\
+nombre(e) = nombre + (segundoNombre) + apellido
 
