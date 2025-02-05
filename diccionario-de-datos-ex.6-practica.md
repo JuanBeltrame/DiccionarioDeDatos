@@ -42,6 +42,5 @@ tipoDocumento(d) = char(3); \[DNI | DU | PAS | LE | LC]\
 nombre(e) = nombre + (segundoNombre) + apellido
 
 **Tipo de Evento:** Evento Externo\
-\
 
 
