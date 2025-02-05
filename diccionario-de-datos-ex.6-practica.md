@@ -14,7 +14,11 @@ When a member of a Video Club wants to rent movies, they provide the system with
 
 e: Alquiler = \[ nroSocio | (nombre\[e] + tipoDocumento(d) + nroDocumento) ] + 1{nombrePelicula}3 \
 tipoDocumento(d) = char(3); \[DNI | DU | PAS | LE | LC]\
-nombre(e) = nombre + (segundoNombre) + apellido\
+nombre(e) = nombre + (segundoNombre) + apellido
+
+***
+
+Tipo de Evento: Evento Externo\
 \
-Tipo de Evento: Evento Externo
+
 
