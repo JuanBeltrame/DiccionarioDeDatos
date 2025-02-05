@@ -19,7 +19,9 @@ tipoDocumento(d) = char(3) ; \[DNI | DU | PAS | LE | LC ]\
 \
 tipodeServicio(d) = \[ restaurant + (horarioUso) | salónExposiciones + horarioUso | salaConferencias + horarioUso ]\
 \
-periodoUso(e) = fechaInicial + fechaFinal\
-\
+periodoUso(e) = fechaInicial + fechaFinal
+
+***
+
 Tipo de Evento: Evento Externo
 
