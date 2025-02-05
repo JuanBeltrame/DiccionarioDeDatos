@@ -12,5 +12,12 @@ A hotel manages its services exclusively through reservations. When a customer r
 
 <mark style="color:green;">**Solution:**</mark>&#x20;
 
-
+e: Reservas = datosPersonales(e) + tipoDeServicio(d) + periodoUso(e) \
+\
+datosPersonales(e) = nombre + apellido + tipoDocumento(d) + nroDocumento + 1{eMail}n\
+tipoDocumento(d) = char(3) ; \[DNI | DU | PAS | LE | LC ]\
+\
+tipodeServicio(d) = \[ restaurant + (horarioUso) | salónExposiciones + horarioUso | salaConferencias + horarioUso ]\
+\
+periodoUso(e) = fechaInicial + fechaFinal
 
