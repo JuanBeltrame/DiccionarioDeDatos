@@ -1,3 +1,7 @@
+---
+description: Socio Videoclub
+---
+
 # Diccionario de Datos - Ex.6 - Practica
 
 #### <mark style="color:orange;">Ejercicio 6 - Exercise 6</mark>
