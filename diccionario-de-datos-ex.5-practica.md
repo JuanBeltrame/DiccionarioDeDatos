@@ -12,6 +12,9 @@ On the 25th of every month, the HR Department prepares a list of deductions to b
 
 <mark style="color:green;">**Solution:**</mark>&#x20;
 
-s:Descuentos = fechaInforme + 0{nroInscripto + valorCuota + (montoCajaAhorro)}n\
+s:Descuentos = fechaInforme + 0{nroInscripto + valorCuota + (montoCajaAhorro)}n
+
+***
+
+Tipo de Evento: Evento Temporal\
 \
-Tipo de Evento: Evento Temporal
