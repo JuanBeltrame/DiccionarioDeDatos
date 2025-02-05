@@ -37,7 +37,7 @@ When a member of a Video Club wants to rent movies, they provide the system with
 
 **Diccionario de Datos:**&#x20;
 
-e: Alquiler = \[ nroSocio | (nombre\[e] + tipoDocumento(d) + nroDocumento) ] + 1{nombrePelicula}3 \
+e: alquiler = \[ nroSocio | (nombre\[e] + tipoDocumento(d) + nroDocumento) ] + 1{nombrePelicula}3 \
 tipoDocumento(d) = char(3); \[DNI | DU | PAS | LE | LC]\
 nombre(e) = nombre + (segundoNombre) + apellido
 

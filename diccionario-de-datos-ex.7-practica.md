@@ -37,7 +37,7 @@ A hotel manages its services exclusively through reservations. When a customer r
 
 **Diccionario de Datos:**&#x20;
 
-e: Reservas = datosPersonales(e) + tipoDeServicio(d) + periodoUso(e) \
+e: reservas = datosPersonales(e) + tipoDeServicio(d) + periodoUso(e) \
 \
 datosPersonales(e) = nombre + apellido + tipoDocumento(d) + nroDocumento + 1{eMail}n\
 tipoDocumento(d) = char(3) ; \[DNI | DU | PAS | LE | LC ]\
@@ -47,4 +47,3 @@ tipodeServicio(d) = \[ restaurant + (horarioUso) | salónExposiciones + horarioU
 periodoUso(e) = fechaInicial + fechaFinal
 
 **Tipo de Evento:** Evento Externo
-

@@ -35,7 +35,10 @@ In the registration for a sports marathon, players who are members or non-member
 
 <mark style="color:green;">**Solution:**</mark>&#x20;
 
-**Diccionario de Datos:**&#x20;
+**Diccionario de Datos:** \
+e: inscripcion = tipoJugador(d) + \[nroSocio | nombre + nDocumento] + categoria(d)\
+tipoJugador(d) = char(7); \[ socio | noSocio ]\
+categoria(d) = \[ 5km | 10km | 22km ]\
 
-**Tipo de Evento:**&#x20;
 
+**Tipo de Evento:** Evento Exterrno.

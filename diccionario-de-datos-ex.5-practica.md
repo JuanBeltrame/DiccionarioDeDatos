@@ -37,6 +37,6 @@ On the 25th of every month, the HR Department prepares a list of deductions to b
 
 **Diccionario de Datos:**&#x20;
 
-s:Descuentos = fechaInforme + 0{nroInscripto + valorCuota + (montoCajaAhorro)}n
+s: descuentos = fechaInforme + 0{nroInscripto + valorCuota + (montoCajaAhorro)}n
 
 **Tipo de Evento:** Evento Temporal.
