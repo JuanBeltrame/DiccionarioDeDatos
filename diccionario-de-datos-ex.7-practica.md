@@ -1,3 +1,7 @@
+---
+description: Reservas de un Hotel
+---
+
 # Diccionario de Datos - Ex.7 - Practica
 
 #### <mark style="color:orange;">Ejercicio 7 - Exercise 7</mark>
