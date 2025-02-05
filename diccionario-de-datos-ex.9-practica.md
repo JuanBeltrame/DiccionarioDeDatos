@@ -36,7 +36,13 @@ The system must generate, on the last business day of each month, a summary of t
 <mark style="color:green;">**Solution:**</mark>&#x20;
 
 **Diccionario de Datos:** \
-s:\
-
+s: resumenGastos = fechaInforme +  1{tipoDeGasto(d)}3\
+\
+tipoDeGasto(d) = \[ comercial(e) | {administrativo(e) | produccion(e) ] \
+\
+comercial(e) = 1{gastoQuincena}2 + gastoMensual \
+administrativo(e) = 1{gastoQuincena}2 + gastoMensual \
+produccion(e) = 1{gastoQuincena}2 + gastoMensual \
+&#x20;
 
 **Tipo de Evento:** Evento Temporal.
